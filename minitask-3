@@ -1,0 +1,6 @@
+1. Mulai
+2. diketahui sebuah variabel x dengan nilai bilangan
+3. lakukan perkondisian apakah nilai variabel x dibagi 2 hasil nya tidak memiliki sisa
+4. Jika iya maka tampilkan bahwa variabel x adalah bilangan genap
+5. Jika tidak maka tampilkan bahwa variabel x adalah bilangan ganjil
+6. Selesai
