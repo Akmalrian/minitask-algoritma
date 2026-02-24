@@ -5,7 +5,7 @@ BEGIN
 
   IF jumlahpembelian < 500.000
   THEN
-    OUTPUT("Tidak Ada Diskon")
+    OUTPUT("Tidak Ada Diskon, Total Pembelian =",jumlahpembelian)
   ELSEIF jumlahpembelian >=500.000 AND <=1.000.0000
   THEN 
     totalpembelian = jumlahpembelian * 5%
