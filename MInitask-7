@@ -1,0 +1,22 @@
+FUNCTION HitungBiayaListrik
+  DECLARE penggunaanlistrik,harga,jumlahnominal : num
+BEGIN
+  INPUT (penggunaanlistrik)
+
+  IF penggunaanlistrik <= 100
+  THEN
+    harga = 2000
+    jumlahnominal = penggunananlistrik*harga
+    OUTPUT("Jumlah Nominal Yang Harus Dibayarkan Sebesar = Rp.",jumlahnominal)
+  ELSEIF penggunaanlistrik > 100 AND penggunaanlistrik <= 200
+  THEN
+    harga = 3000
+    jumlahnominal = penggunananlistrik*harga
+    OUTPUT("Jumlah Nominal Yang Harus Dibayarkan Sebesar = Rp.",jumlahnominal)
+  ELSE
+  THEN
+    harga = 5000
+    jumlahnominal = penggunananlistrik*harga
+    OUTPUT("Jumlah Nominal Yang Harus Dibayarkan Sebesar = Rp.",jumlahnominal)
+  END IF
+END
