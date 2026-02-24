@@ -1,0 +1,18 @@
+FUNCTION PerhitunganBesarDiskon
+  DECLARE jumlahpembelian,totalpembelian : num
+BEGIN
+  INPUT (jumlahpembelian)
+
+  IF jumlahpembelian < 500.000
+  THEN
+    OUTPUT("Tidak Ada Diskon")
+  IF ELSE jumlahpembelian >=500.000 AND <=1.000.0000
+  THEN 
+    totalpembelian = jumlahpembelian * 5%
+    OUTPUT("Diskon 5%, Total Pembelian =",totalpembelian")
+  ELSE
+  THEN 
+    totalpembelian = jumlahpembelian * 10%
+    OUTPUT("Diskon 10%, Total Pembelian =",totalpembelian")
+  END IF
+END
